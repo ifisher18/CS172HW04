@@ -16,7 +16,7 @@ int* doubleCapacity(const int* list, int size)
 		Doublearray[i] = list[i]; // copy of Doublearray in list
 	}
 	delete list;
-	return Doublearray; // returns the new array of twice the size
+	return Doublearray; // returns the new array of twice the size..
 }
 
 int main ()

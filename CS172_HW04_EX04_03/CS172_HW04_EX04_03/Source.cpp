@@ -23,10 +23,11 @@ int main ()
 		cin >> numbers[i]; // cin's each entry into the array
 	}
 
-	cout << "The smallest element in this list of numbers is: " << smallestNum(numbers) << "." << endl;
+	cout << "The smallest element in this list of numbers is: " << smallestNum(numbers) << "." << endl; // cout statement that outputs the smallest number of the inputed values
 
 }
 
+// function that returns the smallest number after comparing to the entire array
 int smallestNum (int*nums)
 {
 	for (int i = 0; i < 100; i++)

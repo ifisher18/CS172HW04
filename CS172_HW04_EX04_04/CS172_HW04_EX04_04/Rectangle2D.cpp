@@ -128,6 +128,7 @@ int main ()
     Rectangle2D r3 = Rectangle2D(3, 5, 2.3, 5.4); // creates a new rectangle r3 with the given parameters
     
     // test program that implements the class
+    // cout statements that display to the user what the test program does
     cout << "Test program:" << endl;
     cout << endl;
     cout << "Three Rectangle2D objects:" << endl;
@@ -137,13 +138,13 @@ int main ()
     cout << endl;
     
     // tests the area and parimeter functions
-    cout << "The area of r1 is: " << r1.getArea() << endl;
-    cout << "The perimeter of r1 is: " << r1.getPerimeter() << endl;
+    cout << "The area of r1 is: " << r1.getArea() << endl; // references the getArea function in the class
+    cout << "The perimeter of r1 is: " << r1.getPerimeter() << endl; // references the getPerimeter function in the class
     cout << endl;
     
     // tests r1.contain(3, 3)
-    cout << r1.contains(3, 3) << endl;
-    if (r1.contains(3, 3) == true) {
+    cout << r1.contains(3, 3) << endl; // outputs 1 (T) or 0 (F) based on input
+    if (r1.contains(3, 3) == true) { // if statement that returns true or false based on whether or not the rectangle contains the point
         cout << "r1 contains the point (3,3)" << endl;
         cout << endl;
     }
@@ -154,8 +155,8 @@ int main ()
     
     
     // tests r1.contains(r2)
-    cout << r1.contains(r2) << endl;
-    if (r1.contains(r2) == true) {
+    cout << r1.contains(r2) << endl; // outputs 1 (T) or 0 (F) based on input
+    if (r1.contains(r2) == true) { // if statement that returns true or false based on whether or not a rectangle contains another rectangle
         cout << "r1 contains r2." << endl;
         cout << endl;
     }
@@ -165,8 +166,8 @@ int main ()
     }
     
     // tests r1.overlaps(r3)
-    cout << r1.overlaps(r3) << endl;
-    if (r1.overlaps(r3) == true) {
+    cout << r1.overlaps(r3) << endl; // outputs 1 (T) or 0 (F) based on input
+    if (r1.overlaps(r3) == true) { //
         cout << "r1 overlaps r3" << endl;
         cout << endl;
     }

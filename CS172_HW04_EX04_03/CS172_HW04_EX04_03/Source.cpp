@@ -30,6 +30,7 @@ int main ()
 }
 
 // function that returns the smallest number after comparing to the entire array
+// funtion returns an integer
 int smallestNum (int*nums) // function with the parameter of the pointer to each number
 {
     int currentsmall = numeric_limits<int>::max(); // sets the intial value equal to greatest value in C++

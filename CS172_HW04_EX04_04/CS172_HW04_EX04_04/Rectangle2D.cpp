@@ -7,6 +7,7 @@
 #include <iostream>
 using namespace std;
 
+// creates a class called Rectangle2D
 class Rectangle2D {
 public:
     // data field that declares x, y, width, and height

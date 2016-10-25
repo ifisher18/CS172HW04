@@ -50,7 +50,8 @@ void Course::addStudent(const string& name)
 
 void Course::dropStudent(const string& name)
 {
-	// left as exercise
+	// left as an exercice
+///////////////////////
 }
 
 string* Course::getStudents() const

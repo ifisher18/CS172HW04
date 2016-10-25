@@ -1,13 +1,13 @@
 //
-//  Header.h
+//  Course.h
 //  hahahaha
 //
 //  Created by Ian J. Fisher on 10/24/16.
 //  Copyright © 2016 Ian J. Fisher. All rights reserved.
 //
 
-#ifndef Header_h
-#define Header_h
+#ifndef Course_h
+#define Course_h
 
 #pragma once
 
@@ -34,4 +34,4 @@ private:
     int capacity;
 };
 
-#endif /* Header_h */
+#endif /* Course_h */

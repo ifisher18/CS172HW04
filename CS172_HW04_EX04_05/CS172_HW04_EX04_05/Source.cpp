@@ -5,7 +5,7 @@
 /////////////////////
 
 #include <iostream>
-#include "Header.h"
+#include "Course.h"
 using namespace std;
 
 // in additional to below, need to implement the destructor and copy constructor to perform a deep copy in the class

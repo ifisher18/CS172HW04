@@ -7,7 +7,9 @@
 #include <iostream>
 using namespace std;
 
+// numAver function declared
 double numAver(int*nums, int sizenum);
+// numAbove function declared
 int numAbove(int*nums, int sizenum);
 int main ()
 {

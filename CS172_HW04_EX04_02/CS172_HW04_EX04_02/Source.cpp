@@ -21,11 +21,11 @@ int* doubleCapacity(const int* list, int size)
 
 int main ()
 {
-    
+    // creates a new point/array
     int*list = new int[3];
-    list [0] = 1;
-    list [1] = 2;
-    list [2] = 3;
+    list [0] = 1; // asigns 1 at location 0 in the array
+    list [1] = 2; // asigns 2 at location 1 in the array
+    list [2] = 3; // asigns 3 at location 2 in the array
     // {1, 2, 3}
     
     // for loop that checks the orig. values in the array (before the doubleCapacity)
